@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-    background-color: var(--color-primario-claro);
+    background-color: var(--color-primario-oscuro);
     padding: 1rem;
     box-shadow: 0 0 0 0 10px rgba(0,0,0,0.5);
 }
@@ -35,11 +35,11 @@ body {
 .titulo-principal {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: var(--color-primario-oscuro);
+    color: var(--color-primario-claro);
 }
 .descripcion {
-    font-size: 1rem;
-    color: var(--color-primario);
+    font-size: 1.5rem;
+    color: rgb(196, 241, 255);
     font-weight: bold;
 }
 
@@ -93,4 +93,14 @@ body {
 .foto-tarjeta:hover {
     transform: translateY(-5px);
 }
+
+.footer {
+    background-color: var(--color-primario-oscuro);
+    color: var(--color-primario-claro);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 
